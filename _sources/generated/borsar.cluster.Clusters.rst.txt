@@ -1,0 +1,30 @@
+borsar.cluster.Clusters
+=======================
+
+.. currentmodule:: borsar.cluster
+
+.. autoclass:: Clusters
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Clusters.__init__
+      ~Clusters.copy
+      ~Clusters.get_cluster_limits
+      ~Clusters.get_contribution
+      ~Clusters.get_index
+      ~Clusters.plot
+      ~Clusters.plot_contribution
+      ~Clusters.save
+      ~Clusters.select
+   
+   
+
+   
+   
+   

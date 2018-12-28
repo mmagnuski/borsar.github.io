@@ -1,0 +1,6 @@
+borsar.utils.silent\_mne
+========================
+
+.. currentmodule:: borsar.utils
+
+.. autofunction:: silent_mne

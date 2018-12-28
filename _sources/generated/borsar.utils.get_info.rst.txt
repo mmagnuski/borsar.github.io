@@ -1,0 +1,6 @@
+borsar.utils.get\_info
+======================
+
+.. currentmodule:: borsar.utils
+
+.. autofunction:: get_info

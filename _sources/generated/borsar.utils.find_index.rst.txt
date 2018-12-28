@@ -1,0 +1,6 @@
+borsar.utils.find\_index
+========================
+
+.. currentmodule:: borsar.utils
+
+.. autofunction:: find_index

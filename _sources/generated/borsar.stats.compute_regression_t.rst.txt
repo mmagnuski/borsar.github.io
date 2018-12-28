@@ -1,0 +1,6 @@
+borsar.stats.compute\_regression\_t
+===================================
+
+.. currentmodule:: borsar.stats
+
+.. autofunction:: compute_regression_t

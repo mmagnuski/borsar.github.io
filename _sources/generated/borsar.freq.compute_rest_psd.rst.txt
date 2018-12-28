@@ -1,0 +1,6 @@
+borsar.freq.compute\_rest\_psd
+==============================
+
+.. currentmodule:: borsar.freq
+
+.. autofunction:: compute_rest_psd

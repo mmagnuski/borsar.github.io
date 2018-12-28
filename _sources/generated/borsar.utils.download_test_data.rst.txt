@@ -1,0 +1,6 @@
+borsar.utils.download\_test\_data
+=================================
+
+.. currentmodule:: borsar.utils
+
+.. autofunction:: download_test_data

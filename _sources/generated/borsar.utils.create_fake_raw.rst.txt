@@ -1,0 +1,6 @@
+borsar.utils.create\_fake\_raw
+==============================
+
+.. currentmodule:: borsar.utils
+
+.. autofunction:: create_fake_raw

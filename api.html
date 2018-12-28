@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>API Documentation &#8212; borsar 0.1dev documentation</title>
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/gallery.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          borsar</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.1</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="auto_examples/index.html">Examples</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="https://github.com/mmagnuski/borsar">GitHub</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"></ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">API Documentation</a><ul>
+<li><a class="reference internal" href="#cluster-based-tests">Cluster-based tests</a><ul>
+</ul>
+</li>
+<li><a class="reference internal" href="#statistics">Statistics</a></li>
+<li><a class="reference internal" href="#visualization">visualization</a></li>
+<li><a class="reference internal" href="#current-source-density">Current Source Density</a></li>
+<li><a class="reference internal" href="#frequency-space">Frequency space</a></li>
+<li><a class="reference internal" href="#utilities">Utilities</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="_sources/api.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container content-container">
+  
+  <div class="section" id="api-documentation">
+<span id="id1"></span><h1>API Documentation<a class="headerlink" href="#api-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="cluster-based-tests">
+<h2>Cluster-based tests<a class="headerlink" href="#cluster-based-tests" title="Permalink to this headline">¶</a></h2>
+<p>Classes</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.cluster.Clusters.html#borsar.cluster.Clusters" title="borsar.cluster.Clusters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Clusters</span></code></a>(clusters,&nbsp;pvals,&nbsp;stat[,&nbsp;dimnames,&nbsp;…])</td>
+<td>Container for results of cluster-based tests.</td>
+</tr>
+</tbody>
+</table>
+<p>Functions</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.cluster.read_cluster.html#borsar.cluster.read_cluster" title="borsar.cluster.read_cluster"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_cluster</span></code></a>(fname[,&nbsp;subjects_dir,&nbsp;src,&nbsp;info])</td>
+<td>Read standard Clusters .hdf5 file and return Clusters object.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="statistics">
+<h2>Statistics<a class="headerlink" href="#statistics" title="Permalink to this headline">¶</a></h2>
+<p>Functions</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.stats.compute_regression_t.html#borsar.stats.compute_regression_t" title="borsar.stats.compute_regression_t"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_regression_t</span></code></a>(data,&nbsp;preds[,&nbsp;return_p])</td>
+<td>Compute regression t values for whole multidimensional data space.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/borsar.stats.format_pvalue.html#borsar.stats.format_pvalue" title="borsar.stats.format_pvalue"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_pvalue</span></code></a>(pvalue)</td>
+<td>Format p value according to APA rules.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="visualization">
+<h2>visualization<a class="headerlink" href="#visualization" title="Permalink to this headline">¶</a></h2>
+<p>Classes</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.viz.Topo.html#borsar.viz.Topo" title="borsar.viz.Topo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Topo</span></code></a>(values,&nbsp;info[,&nbsp;side])</td>
+<td>High-level object that allows for convenient topographic plotting.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="current-source-density">
+<h2>Current Source Density<a class="headerlink" href="#current-source-density" title="Permalink to this headline">¶</a></h2>
+<p>Functions</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.csd.current_source_density.html#borsar.csd.current_source_density" title="borsar.csd.current_source_density"><code class="xref py py-obj docutils literal notranslate"><span class="pre">current_source_density</span></code></a>(inst,&nbsp;G,&nbsp;H[,&nbsp;…])</td>
+<td>Compute current source density for given mne object instance.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="frequency-space">
+<h2>Frequency space<a class="headerlink" href="#frequency-space" title="Permalink to this headline">¶</a></h2>
+<p>Functions</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.freq.compute_rest_psd.html#borsar.freq.compute_rest_psd" title="borsar.freq.compute_rest_psd"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_rest_psd</span></code></a>(raw[,&nbsp;events,&nbsp;event_id,&nbsp;…])</td>
+<td>Compute power spectral density (psd) for given time segments for all channels of given raw file.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="utilities">
+<h2>Utilities<a class="headerlink" href="#utilities" title="Permalink to this headline">¶</a></h2>
+<p>Functions</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.utils.find_index.html#borsar.utils.find_index" title="borsar.utils.find_index"><code class="xref py py-obj docutils literal notranslate"><span class="pre">find_index</span></code></a>(vec,&nbsp;vals)</td>
+<td>Find indices of values in <cite>vec</cite> that are closest to requested values <cite>vals</cite>.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/borsar.utils.find_range.html#borsar.utils.find_range" title="borsar.utils.find_range"><code class="xref py py-obj docutils literal notranslate"><span class="pre">find_range</span></code></a>(vec,&nbsp;ranges)</td>
+<td>Find specified ranges in an ordered vector and return them as slices.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.utils.get_info.html#borsar.utils.get_info" title="borsar.utils.get_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_info</span></code></a>(inst)</td>
+<td>Simple helper function that returns Info whatever mne object it gets.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/borsar.utils.get_dropped_epochs.html#borsar.utils.get_dropped_epochs" title="borsar.utils.get_dropped_epochs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_dropped_epochs</span></code></a>(epochs)</td>
+<td>Get indices of dropped epochs from <cite>epochs.drop_log</cite>.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.utils.silent_mne.html#borsar.utils.silent_mne" title="borsar.utils.silent_mne"><code class="xref py py-obj docutils literal notranslate"><span class="pre">silent_mne</span></code></a>()</td>
+<td>Context manager that silences warnings from mne-python.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/borsar.utils.detect_overlap.html#borsar.utils.detect_overlap" title="borsar.utils.detect_overlap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">detect_overlap</span></code></a>(segment,&nbsp;annot[,&nbsp;sfreq])</td>
+<td>Detect what percentage of given segment is overlapping with annotations.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.utils.valid_windows.html#borsar.utils.valid_windows" title="borsar.utils.valid_windows"><code class="xref py py-obj docutils literal notranslate"><span class="pre">valid_windows</span></code></a>(raw[,&nbsp;tmin,&nbsp;tmax,&nbsp;winlen,&nbsp;step])</td>
+<td>Test which moving windows overlap with annotations.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="generated/borsar.utils.create_fake_raw.html#borsar.utils.create_fake_raw" title="borsar.utils.create_fake_raw"><code class="xref py py-obj docutils literal notranslate"><span class="pre">create_fake_raw</span></code></a>([n_channels,&nbsp;n_samples,&nbsp;sfreq])</td>
+<td>Create fake raw signal for testing.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="generated/borsar.utils.download_test_data.html#borsar.utils.download_test_data" title="borsar.utils.download_test_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">download_test_data</span></code></a>()</td>
+<td>Download additional test data from dropbox.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2018, Mikołaj Magnuski.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+borsar.stats.format\_pvalue
+===========================
+
+.. currentmodule:: borsar.stats
+
+.. autofunction:: format_pvalue

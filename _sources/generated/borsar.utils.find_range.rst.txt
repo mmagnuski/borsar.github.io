@@ -1,0 +1,6 @@
+borsar.utils.find\_range
+========================
+
+.. currentmodule:: borsar.utils
+
+.. autofunction:: find_range

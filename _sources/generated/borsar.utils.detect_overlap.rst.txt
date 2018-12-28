@@ -1,0 +1,6 @@
+borsar.utils.detect\_overlap
+============================
+
+.. currentmodule:: borsar.utils
+
+.. autofunction:: detect_overlap

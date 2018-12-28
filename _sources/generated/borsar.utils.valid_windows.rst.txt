@@ -1,0 +1,6 @@
+borsar.utils.valid\_windows
+===========================
+
+.. currentmodule:: borsar.utils
+
+.. autofunction:: valid_windows

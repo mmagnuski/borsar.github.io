@@ -1,0 +1,27 @@
+borsar.viz.Topo
+===============
+
+.. currentmodule:: borsar.viz
+
+.. autoclass:: Topo
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Topo.__init__
+      ~Topo.mark_channels
+      ~Topo.remove_levels
+      ~Topo.set_linestyle
+      ~Topo.set_linewidth
+      ~Topo.solid_lines
+   
+   
+
+   
+   
+   

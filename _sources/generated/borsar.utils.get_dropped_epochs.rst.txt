@@ -1,0 +1,6 @@
+borsar.utils.get\_dropped\_epochs
+=================================
+
+.. currentmodule:: borsar.utils
+
+.. autofunction:: get_dropped_epochs
